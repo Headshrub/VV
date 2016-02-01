@@ -5,11 +5,21 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: #E2E2E2;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.img-responsive {
+    padding-top: 25px;
 }
 
 .navbar {
-    background-color: #575757;
+    background-color: #fff;
+    border-color: #B0AADC;
 }
 
 .navbar-fixed-top .nav {
@@ -20,13 +30,32 @@ body {
     padding: 0 15px;
 }
 
+.navbar-logo {
+    padding-left: 15px;
+    width: 380px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #A2A2A2;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #B0AADC;
+}
+
+.main-block {
+    background-color: #fff;
+}
+
 footer {
     padding: 30px 0;
 }
 
 @media(min-width:768px) {
     body {
-        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+        padding-top: 80px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
 
     .navbar-fixed-top .navbar-brand {
